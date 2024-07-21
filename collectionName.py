@@ -1,0 +1,9 @@
+s1="Universal"
+print(s1[:])
+print(s1[1:])
+print(s1[:5])
+print(s1[1:6])
+print(s1[1:7:1])
+print(s1[1:8:2])
+print(s1[-1])
+print(s1[-1:-5:-1])

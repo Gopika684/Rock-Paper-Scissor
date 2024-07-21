@@ -1,0 +1,11 @@
+i=1
+sum=0
+count=0
+while(i<=10):
+    if(i%2!=0):
+        print("odd",i)
+        sum=sum+i
+        count=count+1
+    i=i+1
+print("Sum=",sum)
+print("Count=",count)

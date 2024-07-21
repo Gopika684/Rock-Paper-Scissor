@@ -1,0 +1,11 @@
+import mysql.connector as c
+con=c.connect(host="localhost",user="root",password="1234",database="school_management_software")
+cursor=con.cursor()
+name=input("enter name")
+admission=int(input("enter adm id"))
+erp=int(input("enter erp id"))
+subjects=input("enter subject")
+query="Insert into student_info values('{}',{},{},'{}')".format(name,admission,erp,subjects)
+cursor.execute(query)
+con.commit()
+print(" data inserted succesfully!")

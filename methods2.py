@@ -1,0 +1,9 @@
+s1="universal"
+print(s1.isalpha())
+print(s1.isalnum())
+print(s1.find('v'))
+print(s1.find('v',4))
+print(s1.find('v',4,8))
+print(s1.index('v'))
+#print(s1.index('v',4))
+print(s1.index("v",4,8))

@@ -1,0 +1,5 @@
+fp=open("file1.txt","r")
+print(fp.mode)
+print(fp.name)
+fp.close()
+print(fp.closed)
